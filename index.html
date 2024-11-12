@@ -4,6 +4,315 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BootLix</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap Icons -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body></body>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-light shadow-sm fixed-top"
+      >
+        <div class="container">
+          <a class="navbar-brand" href="#"
+            ><h1 class="text-primary h2">BootLix</h1></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#carouselBootlix">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Carousel Section -->
+    <section
+      id="carouselBootlix"
+      class="carousel slide mt-5"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/slide-1.jpg" class="d-block w-100" alt="Slide 1" />
+          <div class="carousel-caption d-block d-md-block">
+            <h5>MERN Stack Developer</h5>
+            <p>Full JavaScript EcoSystem Developer</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/slide-2.jpg" class="d-block w-100" alt="Slide 2" />
+          <div class="carousel-caption d-block d-md-block">
+            <h5>Full Stack Web Developer</h5>
+            <p>Complete Web Developer</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/slide-3.jpg" class="d-block w-100" alt="Slide 3" />
+          <div class="carousel-caption d-block d-md-block">
+            <h5>WordPress Expert</h5>
+            <p>I am Boss of WordPress</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselBootlix"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselBootlix"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="container my-5">
+      <h2 class="text-center mb-4">Portfolio</h2>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 mb-4">
+          <a href="#">
+            <div class="card shadow-sm">
+              <img
+                src="img/portfolio/portfolio-1.png"
+                class="card-img-top"
+                alt="portfolio Image 1"
+              />
+              <div class="card-body bg-white">
+                <h4 class="card-title">Tiker</h4>
+                <p class="card-text">Realisted HTML 5 Website</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <a href="#">
+            <div class="card shadow-sm">
+              <img
+                src="img/portfolio/portfolio-2.png"
+                class="card-img-top"
+                alt="portfolio Image 2"
+              />
+              <div class="card-body bg-white">
+                <h4 class="card-title">Doob</h4>
+                <p class="card-text">Digital Agency Modern Look</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <a href="#">
+            <div class="card shadow-sm">
+              <img
+                src="img/portfolio/portfolio-3.png"
+                class="card-img-top"
+                alt="portfolio Image 3"
+              />
+              <div class="card-body bg-white">
+                <h4 class="card-title">App</h4>
+                <p class="card-text">Smartphone Application Company</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <a href="#">
+            <div class="card shadow-sm">
+              <img
+                src="img/portfolio/portfolio-4.png"
+                class="card-img-top"
+                alt="portfolio Image 4"
+              />
+              <div class="card-body bg-white">
+                <h4 class="card-title">Avilon</h4>
+                <p class="card-text">BootStrap website</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <a href="#">
+            <div class="card shadow-sm">
+              <img
+                src="img/portfolio/portfolio-5.png"
+                class="card-img-top"
+                alt="portfolio Image 5"
+              />
+              <div class="card-body bg-white">
+                <h4 class="card-title">Leno</h4>
+                <p class="card-text">Application Developer Portfolio</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <a href="#">
+            <div class="card shadow-sm">
+              <img
+                src="img/portfolio/portfolio-6.png"
+                class="card-img-top"
+                alt="portfolio Image 2"
+              />
+              <div class="card-body bg-white">
+                <h4 class="card-title">RD Business</h4>
+                <p class="card-text">Raw CSS RD Business Web</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-4">About Us</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="about-image mb-4 mb-md-0">
+              <img
+                src="img/about-image.png"
+                class="img-fluid shadow-sm rounded mx-auto d-block"
+                alt="About Image"
+              />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="about-description">
+              <p>
+                Hello! I'm Imon Hasan, a passionate web developer from the
+                beautiful country of Bangladesh. I specialize in crafting
+                dynamic and responsive websites, with expertise in both
+                front-end development and the MERN stack. With a strong
+                foundation in HTML, CSS, SASS, Bootstrap, Tailwind CSS, and
+                modern frameworks, I build sleek and user-friendly interfaces.
+                In addition, I am proficient in WordPress development, making me
+                versatile in creating everything from custom themes to complex
+                web applications. As a junior MERN developer, I am constantly
+                pushing the boundaries of web technology to deliver high-quality
+                solutions.
+              </p>
+              <div class="info-button mt-3">
+                <a href="#" class="btn btn-primary">Download CV</a>
+                <a href="#" class="btn btn-primary mx-3">Hire Me</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="my-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Contact Us</h2>
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" required />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" required />
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea
+              class="form-control"
+              id="message"
+              rows="4"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-light text-center py-4">
+      <div class="container">
+        <div class="social mb-3">
+          <p>Follow us on:</p>
+          <a
+            class="mx-2"
+            href="https://facebook.com/imon360"
+            class="text-primary"
+            ><i class="bi bi-facebook"></i
+          ></a>
+          <a class="mx-2" href="https://x.com/imonhasan360" class="text-primary"
+            ><i class="bi bi-twitter"></i
+          ></a>
+          <a class="mx-2" href="https://github.com/imon360" class="text-primary"
+            ><i class="bi bi-github"></i
+          ></a>
+          <a
+            class="mx-2"
+            href="https://linkedin.com/in/imonhasan"
+            class="text-primary"
+            ><i class="bi bi-linkedin"></i
+          ></a>
+        </div>
+        <div class="copyright border-top border-info pt-3">
+          <p class="info text">
+            Copyright &copy; 2024
+            <a class="text-dark" href="https://github.com/imon360"
+              >Imon Hasan</a
+            >
+            || Design by
+            <a class="text-dark" href="https://github.com/imon360"
+              >Imon Hasan</a
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
